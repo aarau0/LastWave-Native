@@ -64,7 +64,7 @@
         android:appCategory="audio"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:label="@string/app_name"
+        android:label="Groove"
         android:supportsRtl="true"
         android:theme="@style/Theme.LastWave.Splash"
         android:usesCleartextTraffic="false"
@@ -189,7 +189,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher_round"
-            android:label="@string/app_name"
+            android:label="Groove"
             android:targetActivity=".MainShellActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -203,7 +203,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher_round"
-            android:label="@string/app_name"
+            android:label="Groove"
             android:targetActivity=".MainShellActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -217,7 +217,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_desktop"
             android:roundIcon="@mipmap/ic_launcher_round_desktop"
-            android:label="@string/app_name"
+            android:label="Groove"
             android:targetActivity=".MainShellActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -231,7 +231,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_white"
             android:roundIcon="@mipmap/ic_launcher_round_white"
-            android:label="@string/app_name"
+            android:label="Groove"
             android:targetActivity=".MainShellActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -245,7 +245,7 @@
             android:exported="true"
             android:icon="@mipmap/ic_launcher_black"
             android:roundIcon="@mipmap/ic_launcher_round_black"
-            android:label="@string/app_name"
+            android:label="Groove"
             android:targetActivity=".MainShellActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -259,7 +259,7 @@
             android:name=".playback.MusicPlaybackService"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
+            android:label="Groove"
             android:stopWithTask="false"
             android:foregroundServiceType="mediaPlayback">
             <intent-filter>
